@@ -1,0 +1,154 @@
+body
+{font-family: Arial, Helvetica, sans-serif;
+font-size: 80%}
+
+/*Partie CSS relative au Header*/
+header
+{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin: 0 15px 0 0px;
+}
+
+header a{
+color:#202020;
+text-decoration: none;
+}    
+
+.menu
+{
+display: flex;
+position: absolute;
+top: 10px;
+width: 220px;
+height: 60px;
+right: 10px;
+justify-content: space-between;
+align-content: space-around;
+}
+
+#troisdots
+{
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    right: 20px;
+
+}
+
+#connexion 
+{ 
+display:flex;
+background-color: rgb(2, 125, 226);
+color: white;
+width: 70px;
+height: 30px;
+margin: 10px 0 30px 0;
+align-content: center;
+padding: 0 0 0 0;
+}
+
+/*Partie CSS relative à la "Section" - Milieu de page*/
+
+section
+{
+display: flex;
+width: 100%;
+margin: 221px 0 0 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#logoGoogle
+{
+display: flex;
+position: absolute;
+margin: 0 300px 0 0;
+}
+
+#searchbar
+{
+position: absolute;
+top: 322px;
+width: 450px;
+height: 35px;
+border:  0.5px solid rgb(201, 201, 201);
+border-radius: 20px;
+}
+
+.formulaire_de_recherche
+{
+height: 35px;
+width: 450px;
+border: 0.5px solid rgb(201, 201, 201);
+border-radius: 20px;
+}
+
+#rechercher, #jaidelachance
+{
+margin: 10px 10px 10px 20px;
+background-color: #F2F2F2;
+font-size: 15px;
+padding: 8px 8px 8px 8px;
+cursor: pointer;
+}
+
+/*Partie CSS relative au Footer*/
+
+footer
+{
+position: absolute;
+bottom: 0;
+width: 100%; 
+display: flex;
+flex-direction: column;
+}
+
+footer a
+{
+color: dimgray;
+text-decoration: none;
+}
+
+#France
+{
+display: flex;
+align-content: center;
+padding: 0 0 0 20px;
+background-color: #F2F2F2;
+border: 1px solid rgb(223, 222, 222);
+color: dimgray;
+text-decoration: none;
+font-size: 15px;
+margin: 0 0 0 0;
+}
+
+.menu_pied_de_page
+{
+display: flex;
+justify-content: space-between;
+align-content: center;
+background-color: #F2F2F2
+}
+
+.btngauche{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.btngauche p{
+padding: 0 12px 0 20px;
+}
+
+.btndroite
+{
+display: flex;
+flex-direction: row;
+}
+
+.btndroite p{
+padding: 0 12px 0 20px;
+}
